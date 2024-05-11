@@ -4,7 +4,6 @@ import home.tutorial.security.config.JwtProperties
 import home.tutorial.security.dto.AuthenticationRequest
 import home.tutorial.security.dto.AuthenticationResponse
 import home.tutorial.security.repository.RefreshTokenRepository
-import home.tutorial.security.repository.UserRepository
 import org.springframework.security.authentication.AuthenticationManager
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken
 import org.springframework.security.core.userdetails.UserDetails
